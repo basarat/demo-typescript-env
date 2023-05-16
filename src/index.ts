@@ -1,5 +1,3 @@
-async function main() {
-  
-}
+import { env } from './env';
 
-main();
+console.log(env.SOME_SECRET);
